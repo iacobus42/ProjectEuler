@@ -12,6 +12,5 @@ while maxFib < 1000:
     n = n + 1
     value = recFib(n)
     maxFib = len(str(value))
-    print value
 print n
 
